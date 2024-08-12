@@ -26,7 +26,7 @@ public class Runner_class {
 
     }
     
-    @After class
+    @AfterClass
     
     public static void Browser_close(){
         driver.close
