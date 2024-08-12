@@ -17,11 +17,20 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public class Runner_class {
 
     public static WebDriver driver;
-@BeforeClass
 
-    public static void Browser_open(){
-        driver =new ChromeDriver();
+    @BeforeClass
+
+    public static void Browser_open() {
+        driver = new ChromeDriver();
+
 
     }
-
+    
+    @After class
+    
+    public static void Browser_close(){
+        driver.close
+    }
+    
+    
 }
